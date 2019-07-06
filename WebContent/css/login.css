@@ -1,0 +1,82 @@
+body{margin:0 auto;width:100%;}
+    .bs-example{
+    	margin: 20px;
+    }
+	label.col-sm-4{width:30%;float:left;}
+	.col-sm-8{width:70%;float: left;}
+	.fa-ambulance:before {
+     content: "\f0f9";
+    }
+	.fa-question-circle:before {
+     content: "\f059";
+    }
+	 .tooltip {
+    display:none;
+    background:transparent url(/media/img/tooltip/black_arrow.png);
+    font-size:12px;
+    height:70px;
+    width:160px;
+    padding:25px;
+    color:#eee;
+  }
+    /* style the trigger elements */
+  #demo img {
+    border:0;
+    cursor:pointer;
+    margin:0 1px;
+  }
+	.box {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+-moz-background-clip: padding;
+border-radius: 0;
+-webkit-border-top-right-radius: 0;
+-webkit-border-bottom-right-radius: 0;
+-webkit-border-bottom-left-radius: 0;
+-webkit-border-top-left-radius: 0;
+-moz-border-radius-topright: 0;
+-moz-border-radius-bottomright: 0;
+-moz-border-radius-bottomleft: 0;
+-moz-border-radius-topleft: 0;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+border-top-left-radius: 0;
+-moz-background-clip: padding-box;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+padding: 10px;
+margin-bottom: 30px;
+overflow: visible;
+background: #fafafa;
+-webkit-box-shadow: 1px 1px 1px #e7e7e7;
+-moz-box-shadow: 1px 1px 1px #e7e7e7;
+box-shadow: 1px 1px 1px #e7e7e7;
+width:25%;
+margin:-48px auto;
+}
+.h5a-btn.full {
+width: 40%;float:right;
+}
+h4.underline, h5.underline{
+margin-top: 0;
+border-bottom: 1px solid black;
+}
+.form-group{height:70px;}
+input[type='text'],input[type='password']{width:100%;}
+.dialog-box
+{
+    position: relative;
+    background-color: #D82550;
+    padding: 7px;
+    text-align: center;
+    width: 150px;
+    height: 44px;
+    border-radius: 5px;
+	margin:50px auto;
+	color:#fff;
+	width:342px;
+	text-shadow: 2px 2px #836767;
+	font-size:20px;
+	visibility:hidden;
+}

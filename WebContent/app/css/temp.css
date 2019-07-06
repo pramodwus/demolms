@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../../../resources/fonts/CenturyGothic.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    font-family: 'Century Gothic';
+}
+
+.content-wrapper.text-page {
+    text-align: left;
+    font-family: CenturyGothic;
+}
+
+.content-wrapper {
+    width: 920px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(3, 3, 3, 0.06);
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px 50px;
+}
+
+* {
+    border: 0 none;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main-caption {
+    font-family: 'Century Gothic' !important;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: normal;
+}
+
+.content-wrapper.text-page .main-caption {
+    text-align: center;
+}
+
+.conditions-index {
+    padding: 50px 0 100px;
+    background: #ebebeb;
+}
+
+.content-wrapper.text-page .date {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.65);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content-wrapper.text-page .date.conditions {
+    padding: 30px 0;
+}
+
+.content-wrapper.text-page .caption {
+    font-size: 24px;
+    color: #000;
+    padding: 20px 0 20px;
+    font-weight: bold;
+}
+
+.content-wrapper.text-page .text {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 24px;
+}

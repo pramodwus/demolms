@@ -1,0 +1,33 @@
+[{
+    "img": "resources/app/img/01.png",
+    "heading": "Advance Reporting and custom Dashboard ",
+    "para": "Extensive reporting about learning environment and accessible on custom dashboard, reporting section or via emails. The report engine delves in details and accurately evaluates audience engagement and audits the effectiveness of the learning content. "
+}, {
+    "img": "resources/app/img/02.png",
+    "heading": "Course Builder ",
+    "para": "Enables trainer to create powerful Quizzes and assessments for evaluation of trainees with 7 types of question formats e.g. MCQs, Sort list, Match list, Choice Matrix, Classification, Essay Type, fill in the blanks etc. "
+}, {
+    "img": "resources/app/img/03.png",
+    "heading": "Assessments and Question banks ",
+    "para": "Enables trainer to create powerful Quizzes and assessments for evaluation of trainees with 7 types of question formats e.g. MCQs, Sort list, Match list, Choice Matrix, Classification, Essay Type, fill in the blanks etc."
+}, {
+    "img": "resources/app/img/04.png",
+    "heading": "Learn Paths",
+    "para": "Learning paths helps trainer to set goals for trainees. With in-built assessment features and powerful reporting, QBis facilitates the continuous evaluation of users so that they can focus on courses and sections where they need more attention."
+}, {
+    "img": "resources/app/img/05.png",
+    "heading": "Gamification",
+    "para": "Better learning experience, higher recall and retention, catalyzing behavioral change when training done with fun and gamification. Points, badges and leaderboards actually make learning fun and highly engaging. "
+}, {
+    "img": "resources/app/img/06.png",
+    "heading": "Integrations and Standards ",
+    "para": "Integrates with wide variety of systems including Google Drive, Google Apps, Calendars, PayPal, Stripe, Sales force, xAPI and GoToMeeting. We support industry standards such as SCORM, LTI etc. "
+}, {
+    "img": "resources/app/img/07.png",
+    "heading": "Multilingual ",
+    "para": "QBis platform is designed in such a way to offer these robust features in multiple languages with just configuration changes. "
+}, {
+    "img": "resources/app/img/08.png",
+    "heading": "Offline delivery ",
+    "para": "QBis allows users to undergo learning experience even without Internet. Users can download and access the courses and assessments offline. "
+}]

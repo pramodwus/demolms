@@ -1,0 +1,125 @@
+<header style="background: url(resources/app/img/bnr_2.png);margin: 0;background-size: cover; background-repeat: no-repeat;">
+    <div class="container padding-tp-30">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <img src="resources/app/img/28.png" />
+                </div>
+             <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav pull-right" id="nav">
+                    <li class="active"><a href="javascript:void(0)" data-ng-click="navClick($event, 'homesection');">Home</a></li>
+                    <li><a href="javascript:void(0)" data-ng-click="navClick($event, 'keyfeaturessection');">Key Features</a></li>
+                    <li><a href="javascript:void(0)" data-ng-click="navClick($event, 'benefitssection');">Benefits</a></li>
+                    <li><a href="javascript:void(0)" data-ng-click="navClick($event, 'blogsection');">Blog</a></li>
+                    <li><a href="javascript:void(0)" data-ng-click="navClick($event, 'contactussection');">Contact Us</a></li>
+                    <li><a href="loginathome" class="sp-btn"><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
+                    <li><a href="requestatdemo" class="sp-btn"><i class="fa fa-key" aria-hidden="true" style="transform:rotate(80deg);"></i>Sign Up</a></li>
+                </ul>
+            </div>
+           </div>
+        </nav>
+    </div>
+
+     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="carousel-caption header_wrap">
+                        <h1 class="text-center">Experience the Future Learning Today!</h1>
+                        <p class="text-center">Train & Educate your employees/customers when and where they need it.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                          <div class="carousel-caption header_wrap">
+                        <h1 class="text-center">The True Mobile Learning Platform</h1>
+                        <p class="text-center">Leverage the smart mobile usage for learning.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                          <div class="carousel-caption header_wrap">
+                         <h1 class="text-center">Let your employees addicted for learning</h1>
+                        <p class="text-center">Gamification is an essential ingredient for true engagement learning platform.</p>
+                        </div>
+                    </div>
+                      <div class="item">
+                          <div class="carousel-caption header_wrap">
+                         <h1 class="text-center">Set Goals & evaluate best employee performance</h1>
+                        <p class="text-center">Learning Paths identifies key areas of improvement for employees</p>
+                        </div>
+                    </div>
+                </div>
+              <a class="left carousel-control" role="button" data-target="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" role="button" data-target="#carousel-example-generic" data-slide="next">
+                       <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+    </div>
+
+    <section class="static-content">
+        <!--<div class="header_wrap">
+            <div class="container">
+                <h1 class="text-center">Experience the Future Learning Today!</h1>
+                <p class="text-center">Train & Educate your employees/customers when and where they need it.</p>
+            </div>
+        </div>-->
+        <div class="request_demo">
+            <div class="container">
+                <form class="request_demo">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <input type="email" required placeholder="Enter Your Email Address" id="email_for_request_demo" data-ng-model="requestuser.email"/>
+                        <button class="demo" data-ng-click="sendReqestDemoRequest()" data-ng-disabled="requestuser.isDisabled">Request A Demo</button>
+                        <label style="color:rgb(183, 227, 127)" data-ng-if="requestuser.error!=''">{{requestuser.error}}</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="video">
+            <div class="container" style="text-align:center">
+
+                 <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Product Video</button>
+
+            </div>
+        </div>
+       <!-- <div class="arr-down">
+            <a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div> -->
+    </section>
+</header>
+  <!--Modal-->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" style="margin-top: -8px;">&times;</button>
+
+                        </div>
+                        <div class="modal-body">
+                                     <video style="width:100%;height:auto;" data-ng-src="resources/app/videos/qbis_demo_video.mp4" type="video/mp4"
+                            id="qbis_demo_video" poster="resources/app/videos/qbis_demo_video_thumbnail.png"
+                            controls="controls" preload="none" width="100%" height="auto;"> </video>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal" style="background:#000;color:#fff;">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+         <div class="modal fade" data-modal="demo_request_success_modal" id="demo_request_success" role="dialog">
+            <div class=" col-md-12 col-sm-12 col-xs-12">
+				<div class="modal-dialog modal-sm">
+					<div class="modal-content">			
+						<div class="modal-body" style="text-align: center">
+						<h3></h3>
+						<p>Thanks! our sales representative will be in touch with you shortly.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 

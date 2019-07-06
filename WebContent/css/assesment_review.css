@@ -1,0 +1,195 @@
+.content-wrapper{
+    background-image: linear-gradient(-180deg,#00d2ff,#0c4a83 79%,#0a336c)!important;
+    min-height: 100vh;
+}
+.sidebar{
+    background:#262626;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+}
+.course-list-div{
+    padding: 16px 30px;
+    border-bottom: 1px solid #373737;
+}
+.course-div-heading{
+    padding: 0;
+    font-size: 10px;
+    position: relative;
+    width: 60px;
+    min-width: 60px;
+    display: inline-block;
+    vertical-align: top;
+    height: 15px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    color: hsla(0,0%,100%,.3);
+    font-weight: 700;
+}
+.course-div-margin{
+    margin-left: -15px;
+}
+.course-main-div{
+    max-height: 1000px;
+    transition: max-height 1s;
+    overflow: hidden;
+}
+.course-div{
+    position: relative;
+    color: hsla(0,0%,100%,.7);
+    font-size: 14px;
+    padding: 0 11px;
+    height: 30px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-decoration: none;
+    will-change: color,width;
+    transition: width .25s ease-in;
+}
+.flex_alignMiddle{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.course-main-div .active{
+    color: #262626 !important;
+}
+.course-main-div .non-active{
+    border-radius: 4px;
+    background: #fff;
+    color: #55bbea;
+    font-weight: 600;
+    text-decoration: none;
+}
+.course-div:hover{
+    border-radius: 4px;
+    color: #fff;
+}
+.icon-div{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.course-name{
+    max-width: 100%;
+    position: absolute;
+    font-weight: 600;
+    width: 200px;
+    left: 50px;
+    top: 7px;
+}
+.card-body{
+    min-height: 70px;
+}
+.stats-div{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgba(20,32,49,.25);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.stat-content{
+    display: flex;
+}
+.stat{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+}
+.stat-icon{
+    color: #a1a6ad;
+    font-size: 25px;
+}
+.icon-data{
+    margin-left: 20px;
+}
+.stat-value{
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+.stat-data{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -.33px;
+    font-weight: 600;
+    color: rgba(20,32,49,.3);
+}
+.main-right-div{
+    position: relative;
+    max-width: 840px;
+    /* padding: 20px 0; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.stats-container{
+    /* padding: 0.75rem 1rem 0rem 1rem; */
+    border-top: none;
+    background: #f6f6f7;
+}
+.button-main-div{
+    width: 100%;
+    /* text-align: center; */
+ /*    margin-top: 10px;
+    margin-bottom: 20px; */
+}
+    .width-class{
+    width: 100%;
+    max-width: 487px;
+    } 
+    .button-css{
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+    } 
+    .button-color{
+    background: #55bbea;
+    transition: background .1s ease;
+    } 
+    .button-shadow{
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    }
+    .question-heading{
+        padding: 30px 0px 5px 30px;
+    /* padding-top: 30px; */
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(20,32,49,.25);
+}
+    

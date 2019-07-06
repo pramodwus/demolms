@@ -1,0 +1,166 @@
+.sidebar-menu>li {border-bottom: 1px solid #d0d0d0;}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side{  min-height: 0%;  border: 1px solid #d0d0d0;}
+.sidebar-menu>li>a {padding: 20px 5px 20px 15px;display: block;}
+body{background-color: #ECF0F5;}
+.content-wrapper{margin-left:0px;}
+.navbar-nav>.user-menu .user-image{float: right;}
+.main-sidebar{width: 217px;padding-top: 0px;}
+.sidebar {padding-bottom: 0px;}
+.main-sidebar, .left-side {position: relative;}
+.input-group[class*=col-] {padding-top: 8px;}
+.skin-black-light .wrapper, .skin-black-light .main-sidebar, .skin-black-light .left-side {
+  background-color: #ECF0F5;
+  border: 1px solid #d0d0d0;
+  margin-top: 15px;
+}
+.sidebar-menu>li.active>a {color: #000;background: #f4f4f5;border-left: 3px solid #00B06C;}
+		.sidecontent{color:#7d8181;font-size: 15px;}
+		.form-control {border-radius: 0;box-shadow: none;border-color: #d0d0d0;}
+.skin-black-light .wrapper, .skin-black-light .main-sidebar, .skin-black-light .left-side {
+    background-color: #f9fafc;border: 1px solid #d0d0d0;margin-top:15px;}
+    .skin-black-light .wrapper, .skin-black-light .main-sidebar, .skin-black-light .left-side {
+  background-color: #ECF0F5 !important;
+  border: 1px solid #d0d0d0;
+  margin-top: 15px;
+}
+.skin-black-light .content-wrapper, .skin-black-light .main-footer {
+  border-left: 0px solid #d2d6de !important;
+}
+
+
+
+
+/**
+This is for student course_details
+
+**/
+
+
+.navbar-trial-button{
+    background: #1289A1;
+    color:white;
+    border-radius: 0px;
+    font-size: 0.95rem;
+    box-shadow: 0px 1px 0px 0px #033943;   
+    }
+.navbar-signin-button{
+    background: #06BE06;
+    color:white;
+    border-radius: 0px;
+    font-size: 0.95rem;
+    box-shadow: 0px 1px 0px 0px #033943;
+}
+/* .navbar-light .navbar-nav .nav-link {
+    color: #060606;
+    font-size: 0.95rem;
+    font-weight: 600;
+} */
+
+.pink-highlighter{
+    color:#DB00C0;
+}
+.yellow-highlight-text{
+    color:yellow;
+}
+.highlight-text{
+    color:red;
+}
+
+/* Footer css */
+
+
+footer{
+    background: #0F1012;
+}
+.footer-link-border{
+    border-right: 3px solid white;
+    padding-left: 1px;
+}
+.transparent-input{
+    background: transparent;
+}
+
+
+
+/* Modal css */
+.modal-dialog {
+    max-width: 55%;
+    margin: 5rem auto;
+}
+.modal-header .close {
+    padding: 0.50rem 0.50rem;
+    margin: 0rem 0rem -2rem auto;
+    opacity: 1;
+   
+}
+.img-logo{
+    width: 9rem;
+}
+
+
+.input-group-text{
+    background: url(/../resources/images/allimages/send.png) center no-repeat /cover;
+    width: 3.5rem;
+}
+
+/* #partitioned {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border: 0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 220px;
+    min-width:220px;
+  }
+  
+  #divInner{
+    left: 0;
+    position: sticky;
+  }
+  
+  #divOuter{
+    width:190px; 
+    overflow:hidden
+  } 
+   <div class="form-group">
+                                        <div id="divOuter">
+                                            <div id="divInner">
+                                                <input id="partitioned" type="text" maxlength="4" />
+                                            </div>
+                                        <div>
+                                    </div>
+  
+  */
+  
+  /* **************navbar css start here*********** */
+
+.header-img-logo {
+    width: 9rem;
+}
+.header-user-image {
+    height: 35px;
+    width: 35px;
+}
+.new-style{
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.dropdown-item{
+    padding: 0.85rem 1.5rem;    
+}
+.dropdown-item:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.dropdown-menu{
+    border: none;
+    box-shadow: 0px 0px 5px -3px rgba(0, 0, 0, 0.2), 0px 2px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.fa-icon{
+    font-size: 18px;
+}
+/* **************navbar css end here*********** */

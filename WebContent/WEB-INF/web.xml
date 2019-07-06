@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Tomcat6Project</display-name>
+  <display-name>qbis</display-name>
+   
+   <servlet>
+      <servlet-name>qbis</servlet-name>
+      <servlet-class>
+         org.springframework.web.servlet.DispatcherServlet
+      </servlet-class>
+      <load-on-startup>1</load-on-startup>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>qbis</servlet-name>
+      <url-pattern>/</url-pattern>
+   </servlet-mapping>
+   <servlet>
+    <servlet-name>ExpressCheckout</servlet-name>
+    <servlet-class>com.qbis.paypal.ExpressCheckout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExpressCheckout</servlet-name>
+    <url-pattern>/ExpressCheckout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Return</display-name>
+    <servlet-name>Return</servlet-name>
+    <servlet-class>com.qbis.paypal.Return</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Return</servlet-name>
+    <url-pattern>/Return</url-pattern>
+  </servlet-mapping>
+   <error-page>
+		<error-code>404</error-code>
+		<location>/</location>
+	</error-page>
+		<!-- This will catch Http 500 error -->
+	<error-page>
+	    <error-code>500</error-code>
+	    <location>/</location>
+	</error-page>
+   <context-param>
+   		<param-name>contextConfigLocation</param-name>
+   		<param-value>/WEB-INF/applicationContext.xml</param-value>
+ 	</context-param>
+ 	<listener>
+ 	  <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  	</listener>
+   
+  	<session-config>
+		<session-timeout>120</session-timeout>
+	</session-config>
+</web-app>

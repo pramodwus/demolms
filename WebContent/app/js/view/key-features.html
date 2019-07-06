@@ -1,0 +1,22 @@
+<div class="container" id="KeyFeatures">
+    <article>
+        <h1 class="text-center header_green bignbold">
+            Key Features
+            <hr>
+        </h1>
+
+        <p class="text-center padding-15 padding-btm-30 para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </article>
+
+    <div class="row">
+        <div data-ng-repeat="key in kfeatures" class="col-md-3 text-center">
+            <div class="card">
+                <figure style="height: 55px;">
+                    <img data-ng-src="{{ key.img }}" alt="{{ key.img }}" />
+                </figure>
+                <h4>{{ key.heading }}</h4>
+                <p>{{ key.para }}</p>
+            </div>
+        </div>
+    </div>
+</div>

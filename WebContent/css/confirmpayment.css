@@ -1,0 +1,53 @@
+.login-box {
+	width: 100% !important;
+	margin: 7% auto;
+}
+
+.dl-horizontal dt, .dl-horizontal dd {
+	padding: 5px;
+	font-weight: 500;
+	font-size: large;
+}
+
+.dl-horizontal dt {
+	text-align: left;
+}
+
+.dl-horizontal dd {
+	text-align: right;
+}
+
+.box {
+	border: 0px solid #fff !important;
+	background-color: transparent;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+	margin-top: 20px;
+}
+
+.box-title {
+	padding: 5px;
+	font-size: 25px !important;
+}
+
+.box-header {
+	margin-right: 15px;
+	border-bottom: 1px dotted #d4d5d9;
+}
+
+.price-details {
+	border-bottom: 1px dotted #d4d5d9;
+}
+
+a, .nav__link .btn-primary {
+	cursor: default;
+	pointer-events: none;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('resources/../../fonts/CenturyGothic.ttf');
+}
+
+h1, h2, h3, h4, h5, p, a, label, input, select, button, ul, span {
+	font-family: 'Century Gothic' !important;
+}

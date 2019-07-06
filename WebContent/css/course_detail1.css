@@ -1,0 +1,197 @@
+.content-wrapper{
+    background-image: linear-gradient(-180deg,#00d2ff,#0c4a83 79%,#0a336c)!important;
+}
+.sidebar{
+    background:#262626;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+}
+.back-to-chapters{
+    /* padding: 0 20px; */
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
+    color: hsla(0,0%,100%,.6);
+    cursor: pointer;
+    transition: color .2s ease;
+}
+.back-to-chapters:hover{
+    color: hsla(0,0%,100%,.8);
+    cursor: pointer;
+    transition: color .2s ease;
+    text-decoration: none;
+}
+.back-to-chapters-box{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+    box-shadow: 0 1px 0 0 hsla(0,0%,100%,.2);
+}
+.back-to-chapters span{
+    padding-left: 10px;
+}
+.chapter-description-box{
+    background: rgba(0,0,0,.05);
+    padding: 25px 20px;
+    color: #fff;
+}
+.chapter-description-box h3{
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.chapter-content-box{
+    padding: 32px 20px;
+}
+.chapter-content-box ._heading{
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    opacity: .4;
+    padding-bottom: 5px;
+}
+.color-white{
+    color: #fff;
+}
+.icon-active{
+    color: #262626; 
+}
+.chapter-content-box .act-div{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    background: hsla(0,0%,100%,.1);
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.04);
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #fff;
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.chapter-content-box .active{
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 25px;
+    background: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.04);
+    border-radius: 4px;
+    margin-top: 10px;
+    color: #262626;
+    -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.act-name{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.chapter-content-box .act-div:hover{
+    -moz-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+  text-decoration: none;
+}
+.direction-arrow{
+    margin-top: -2px;
+    margin-left: auto;
+}
+.main-right-div{
+    position: relative;
+    max-width: 840px;
+   /*  padding: 40px 0; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body{
+    min-height: 70px;
+}
+.stats-div{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgba(20,32,49,.25);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.stat-content{
+    display: flex;
+}
+.stat{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+}
+.stat-icon{
+    color: #262626;
+    font-size: 25px;
+}
+.icon-data{
+    margin-left: 20px;
+}
+.stat-value{
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+.stat-data{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -.33px;
+    font-weight: 600;
+    color: rgba(20,32,49,.3);
+}
+.continue-learning-button{
+    background: #68c721;
+    transition: background .1s ease;
+    width: 210px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+}
+.continue-learning-button:hover{
+    background: #74db26;
+    color:white;
+}
+
+

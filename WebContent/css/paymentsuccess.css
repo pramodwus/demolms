@@ -1,0 +1,400 @@
+
+body{
+	background-color:#E2EBEC;
+}
+
+.pf-checkout-container{
+	-moz-box-shadow:    0px 1px 4px 0px rgba(50, 50, 50, 0.19);
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.19);
+	background-color:#FFFFFF;
+	border-radius: 2px;
+	border:1px solid #DEDEDE;
+	box-shadow:         0px 1px 4px 0px rgba(50, 50, 50, 0.19);
+	font-family: 'Myriad Pro';
+	margin-bottom:35px;
+	margin-left:auto; 
+	margin-right:auto;
+	max-width:880px;
+	min-width:478px;
+	padding:0px;
+	position: relative;
+}
+
+.pf-checkout-container h1{
+	color:#414141;
+	font-family: 'Myriad Pro';
+	font-size: 27px;
+	font-weight: 700;
+	margin-bottom:15px;
+	margin-left:10%;
+	margin-top:15px;
+}
+
+p.pf-processed-msg{
+	margin-left:10%;
+	color:#73737B;
+	font-size: 15px;
+	font-weight: 400;
+	padding-bottom:0px;
+	margin-bottom:15px;
+}
+
+.pf-total-col{
+	background-color:#F5F5F5;
+	border-bottom:1px solid #F0F0F0;
+	border-top:1px solid #F0F0F0;
+	display: inline-block;
+	height:55px;
+	margin-bottom: 10px;
+	margin-left:0px;
+	width:100%;
+}
+
+
+.pf-total-wrapper{
+	float:right;
+	font-weight: 600;
+	margin-right:10%;
+	margin-top:15px;
+}
+
+.pf-total-paid{ 
+	color: #292929;
+	float: left;
+	font-size: 21px;
+	margin-left: 10%;
+	margin-right: 50px;
+	margin-top: 17px;
+}
+
+.pf-total-label{
+	color:#737373;
+	font-size: 21px;
+	font-style: italic;
+	margin-right:50px;
+}
+
+.pf-total-amount{
+	color:#ee4e22;
+	font-size: 23px;
+}
+
+.pf-checkout-container .pf-card-details,.pf-checkout-container .pf-success-details{
+	display: inline-block;
+	margin-left:10%;
+	margin-right:10%;
+	min-width: 300px;
+	width:80%;
+}
+
+.pf-checkout-container .pf-card-details .pf-input-container{
+	display: inline-block;
+	float:left;
+	margin-top:15px;
+	width:50%;
+}
+
+.pf-checkout-container span.pf-label{
+	color:#7A7A7A;
+	color:black;
+	display: block;
+	font-size: 14px;
+	height:25px;
+	margin-bottom:0px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width:100%;
+}
+
+.pf-checkout-container input.pf-input{
+	border-radius: 2px;
+	border: 1px solid #E3E3E3;
+	color: #000;
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	height: 38px;
+	padding: 2%;
+	width: 100%;
+}
+
+.pf-checkout-container input.pf-input:hover{
+	border-color:#bbbbbb;
+}
+
+.pf-checkout-container input.pf-input:focus{
+	-moz-box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.19);
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.19);
+	border-color:#bbbbbb;
+	box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.19);
+}
+
+.pf-checkout-container .pf-input-container.pf-error input.pf-input{
+	background-color: #f0dede !important;
+    border-color: #c60f13 !important;
+    color:black;
+    border-radius: 2px 2px 0px 0px;
+}
+
+.pf-checkout-container span.pf-error{
+	display: block;
+	border-radius: 0px;
+    box-sizing: border-box;
+    color: white;
+    height: 24px;
+    padding-left: 10px;
+    background-color:#c60f13;
+    font-size: 13px;
+    line-height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top:-10px;
+}
+
+.pf-checkout-container .pf-error.pf-hide{
+	display: none;
+}
+
+.pf-checkout-container .pf-card-details div.pf-first-name{
+	margin-right:5%;
+	width:47.5%;
+}
+
+.pf-checkout-container .pf-card-details div.pf-last-name{
+	width:47.5%;
+}
+
+.pf-checkout-container .pf-card-details div.pf-address{
+	margin-right:3%;
+	width:76.5%;
+}
+
+.pf-checkout-container .pf-card-details div.pf-card-expiry{
+	width:20.5%;
+}
+
+.pf-checkout-container .pf-card-details div.pf-card-number{
+	margin-right:3%;
+	width:76.5%;
+}
+
+.pf-checkout-container .pf-card-details div.pf-security-code{
+	margin-top:20px;
+	position: relative;
+	width:20.5%;
+}
+
+.pf-code-icon{
+	background-color: #F5F5F5;
+	background-repeat: no-repeat;
+	left:103%;
+	position: absolute;
+	top:32px;
+    background-image: url(code.png);
+    background-size: 38px 24px;
+    display: inline-block;
+    height: 24px;
+    margin-left: 5px;
+    width: 38px;
+}
+
+.pf-checkout-container .pf-card-details div.pf-card-expiry input,
+.pf-checkout-container .pf-card-details div.pf-security-code input{
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.pf-card-type{
+	float:right;
+	text-align: right;
+	width:70%;
+}
+
+.pf-checkout-container .pf-card-number span.pf-label{
+	float:left;
+	margin-top:5px;
+	width:30%;
+}
+
+.pf-card-type span{
+	background-color: #F5F5F5;
+    background-size: 38px 24px;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    margin-left: 5px;
+    opacity: 0.4;
+    width: 38px;
+}
+
+.pf-visa{
+	background-image: url(visa.png);
+	background-repeat: no-repeat;
+}
+
+.pf-mc{
+	background-image: url(mc.png);
+	background-repeat: no-repeat;
+}
+
+.pf-amex{
+	background-image: url(amex.png);
+	background-repeat: no-repeat;
+}
+
+.pf-discover{
+	background-image: url(discover.png);
+	background-repeat: no-repeat;
+}
+
+.pf-card-type .pf-selected{
+	opacity: 1;
+}
+
+.pf-checkout-container .pf-green{
+	color:#4FC12D;
+}
+
+.pf-success-details p{
+	color:#737373;
+}
+
+.pf-success-details ul{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+
+.pf-success-details ul li{
+	height:32px;
+	line-height: 32px;
+	font-size: 18px;
+	color:#737373;
+	display: flex;
+}
+
+.pf-success-details ul li .pf-value-name{
+	width:130px;
+}
+
+.pf-success-details ul li .pf-value{
+	color:#292929;
+}
+
+.pf-companylogo{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:10px;
+	max-width: 400px;
+}
+
+.pf-payment-buttons{
+	margin-bottom:15px;
+	margin-top:30px;
+	min-width: 300px;
+	text-align: right;
+	width:100%;
+}
+
+.pf-payment-buttons .redirect_login{
+	background-color: #1BB16C;
+	border-radius: 3px;
+	border: medium none;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 100;
+	height: 38px;
+	margin-right: 10%;
+	text-align: center;
+	width: 195px;
+}
+
+.pf-payment-buttons .redirect_login:hover{
+	background-color:#00C96C;
+}
+
+.pf-payment-buttons .payment_print{
+	background-color: transparent;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	font-weight: 100;
+	height: 38px;
+	margin-right: 10%;
+	text-align: center;
+	width: 195px;
+}
+
+.pf-payment-buttons .payment_print:hover{
+	background-color:#F4F4F4;
+}
+
+
+.pf-footer{
+	position: absolute;
+	text-align: center;
+	width:100%;
+}
+
+.pf-footer span{
+	color:#414141;
+	display: inline-block;
+	font-size: 15px;
+	margin-right:10px;
+	position: relative;
+	top:-8px;
+}
+
+.pf-footer img{
+	border:none;
+	display: inline-block;
+	height:23px;
+	margin-top:10px;
+}
+
+.pf-loading{
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	background-image: url(loading-small.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.pf-checkout-container .pf-loading.pf-hide{
+	display: none;
+	}
+
+.pf-checkout-container .pf-checkout.pf-hide{
+	display: none;
+	}
+	
+.licence label {
+    padding:0;
+    text-align: center;
+    cursor: default;
+    transition: all .4s ease;
+    border: 0px solid #fff;
+    border-radius: 0px;
+}
+.login-logo{
+	margin-bottom:0px;
+}
+
+.payment_success_logo{
+	padding-top:120px;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('resources/../../fonts/CenturyGothic.ttf');
+}
+
+h1, h2, h3, h4, h5, p, a, label, input, select, button, ul, span {
+	font-family: 'Century Gothic' !important;
+}

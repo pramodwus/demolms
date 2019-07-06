@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+.requireFld {
+	color: #c95b5b !important;
+	font-size: 12px;
+	display: none;
+	width: 100%;
+}
+
+.login-box {
+	Border: 1px solid #5E5A4B;
+}
+
+.form-control, #drop {
+	border-color: #5E5A4B;
+}
+
+#loginType, #registerType {
+	background-color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+.user-login-page-with-subdomain {
+	padding-right: 3em;
+}
+
+.user-login-page-overlay {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+	z-index: 9999;
+}
+
+.user-login-page-overlay .lazy{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+}
+
+.user-login-error, .otp-fail-error{
+    font-size: large;
+}
+
+.link-expire-error{
+   color:red;
+}
+
+.user-login-page-verify-error{
+	margin-bottom: 5px;
+}
+
+.submit-login-button{
+	width:150px;
+}
+
+.qbis--body {
+    background-image:    url("resources/../../images/body.jpg");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center;          /* optional, center the image */
+         }
+.no-left-padding{
+	padding-left:0px;
+}         
+
+.update-pass-register-box{
+	Border: 1px solid #5E5A4B;
+}
+
+.login-on-domain--body .notifications {
+    outline: 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.login-on-domain--body .notifications .notification.notification-critical {
+    background-color: #fff7f7;
+    background-position: 12px -387px;
+    background-position: left 12px top -387px;
+    border-color: #c72e2e;
+}
+.login-on-domain--body .notifications .notification {
+    margin: 0;
+    padding: 15px 15px 15px 44px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    font-size: 1em;
+    background: url('resources/../../images/msg_alert_icon.png') no-repeat;
+    background-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+	.login-box-media-query {
+		width:395px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.content-wrapper {
+		width:auto;
+	}
+}

@@ -1,0 +1,209 @@
+.content-wrapper{
+    background-image: linear-gradient(-180deg,#00d2ff,#0c4a83 79%,#0a336c)!important;
+}
+.sidebar{
+    background:#262626;
+    transition: all 0.5s ease 0s;
+    height: 100%;
+}
+.course-list-div{
+    padding: 16px 30px;
+    border-bottom: 1px solid #373737;
+}
+.page-content-wrapper{
+	min-height: 150vh;
+	background-image: linear-gradient(-180deg,#00d2ff,#0c4a83 79%,#0a336c)!important;
+}
+.course-div-heading{
+    padding: 0;
+    font-size: 10px;
+    position: relative;
+    width: 60px;
+    min-width: 60px;
+    display: inline-block;
+    vertical-align: top;
+    height: 15px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    color: hsla(0,0%,100%,.3);
+    font-weight: 700;
+}
+.course-div-margin{
+    margin-left: -15px;
+}
+.course-main-div{
+    max-height: 1000px;
+    transition: max-height 1s;
+    overflow: hidden;
+}
+.course-div{
+    position: relative;
+    color: hsla(0,0%,100%,.7);
+    font-size: 14px;
+    padding: 0 11px;
+    height: 30px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-decoration: none;
+    will-change: color,width;
+    transition: width .25s ease-in;
+}
+.flex_alignMiddle{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+/* .course-main-div .active{
+    color: #262626 !important;
+} */
+.course-main-div .non-active{
+    border-radius: 4px;
+    background: #fff;
+    color: #55bbea;
+    font-weight: 600;
+    text-decoration: none;
+}
+.course-div:hover{
+    border-radius: 4px;
+    color: #fff;
+}
+.icon-div{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.course-name{
+    max-width: 100%;
+    position: absolute;
+    font-weight: 600;
+    width: 200px;
+    left: 50px;
+    top: 7px;
+}
+.card-body{
+    min-height: 70px;
+}
+.stats-div{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgba(20,32,49,.25);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.stat-content{
+    display: flex;
+}
+.stat{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: flex;
+}
+.stat-icon{
+    color: #262626;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.icon-data{
+    margin-left: 10px;
+}
+.stat-value{
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+.stat-data{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -.33px;
+    font-weight: 600;
+    color: rgba(20,32,49,.3);
+}
+.chapter-name-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-right-div{
+    position: relative;
+    max-width: 840px;
+    /* padding: 20px 0; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.chapter-div{
+    color: #212529 !important;
+    text-decoration: none !important;  
+    text-decoration-line: none;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.chapter-div:hover{
+    color: #212529 !important;
+    text-decoration: none !important; 
+    text-decoration-line: none;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    text-decoration: none;
+}
+.continue-learning-button{
+    background: #68c721;
+    transition: background .1s ease;
+    width: 210px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.2);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40px;
+}
+.continue-learning-button:hover{
+    background: #74db26;
+    color:white;
+}
+.stats-container{
+    padding: 0.75rem 1rem 0rem 1rem;
+    border-top: none;
+    background: #f6f6f7;
+}
+.new-card .card{
+    border: 0px solid;
+    border-radius: 0px;
+}
+.active {
+font-size: 15px !important;
+color: #fff !important;
+}

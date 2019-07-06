@@ -1,0 +1,148 @@
+.user-name-button{
+    background: #00ADEF;
+    color: #fefefe;
+    border-radius: 0rem;
+}
+.user-name-button:hover {
+    color: #fefefe;
+    text-decoration: none;
+}
+.user-name-button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.group1{
+    background: #000000;
+}
+.group1-video{
+    float: right;
+}
+.group2{
+    background: #eff8fd;
+}
+.nav-tabs{
+    color: #fefefe;
+    background-color: #044b5d;
+    border-bottom: 1px solid #fff !important;
+    border-color: transparent;
+}
+.nav-tabs .nav-link.active{
+    color: #fefefe;
+    background-color: #479dce;
+    border-bottom: 1px solid #fff !important;
+    border-color: transparent;
+}
+.nav-tabs{
+    border: none;
+} 
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+.overview-tab{
+    /* height: 70vh; */
+    background: #00aff0;
+} 
+.group2-box{
+    border: solid #6e9aa5 0.1rem;
+}
+.group2-right-click-image{
+    width: 1.5rem;
+}
+.group2-right-tick-td{
+    width: 0.5rem;
+}
+.group2-button-td{
+    width: 10rem;
+    text-align: center;
+}
+.watch-again-button{
+    background: #00ADEF;
+    color: #fefefe;
+    border-radius: 1.6rem;
+}
+.watch-again-button:hover {
+    color: #fefefe;
+    text-decoration: none;
+}
+.watch-again-button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.try-again-button{
+    background: #00ADEF;
+    color: #fefefe;
+    border-radius: 1.6rem;
+}
+.try-again-button:hover{
+    color: #fefefe;
+    text-decoration: none;
+}
+.try-again-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.start-now-button{
+    background: #06be06;
+    color: #fefefe;
+    border-radius: 1.6rem;  
+}
+.start-now-button:hover{
+    color: #fefefe;
+    text-decoration: none;
+}
+.start-now-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.group2-chapter-label{
+    font-size: 1.5rem;
+}
+.group2-attempt-button{
+    display: inline-flex;
+}
+.attempt-complete-button{
+    background: #06be06;
+    color: #ffffff;
+}
+.attempt-complete-button:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.attempt-complete-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.attempt-start-now-button{
+    background: #20b5d6;
+    color: #ffffff;     
+}
+.attempt-start-now-button:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.attempt-start-now-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.feedback-card{
+    background: #e6f3f9;
+    border: none;
+}
+.feedback-submit-button{
+    background: #ffffff;
+    color: #20b4d8;
+    border: solid #20b5d6 0.09rem;
+}
+.feedback-submit-button:hover{
+    color: #20b4d8;
+    text-decoration: none;
+}
+.feedback-submit-button:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #fff;
+}
+.input-group-text{
+    background: url(/allimages/send.png) center no-repeat /cover;
+    width: 3.5rem;
+}
+

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example 8.8.2
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+body {
+  padding-top: 60px;
+}
+
+
+
+ .group1{
+    background: url(../allimages/home_page1/group1_banner.png) center no-repeat /cover;
+    background-size: 100% 100%;
+}
+.group1-try-free{
+    background: #06BE06;
+    box-shadow: 0px 2px 0px 0px #033943;
+}
+.try-free{
+    background: #57FE56;
+    border: none;
+    box-shadow: 0px 2px 0px 0px #033943;
+}
+.try-free:hover{
+    border: none;
+    color: #fefefe;
+    box-shadow: 0px 2px 0px 0px #033943;
+}
+.group2 {
+    background: #60D3FF;
+}
+
+.img-logo{
+    width: 9rem;
+}
+
+
+.img-fluid{
+    height: 125px;
+    border: 3px solid #fff;
+}
+
+.choose-your-lesson{
+    background: #D8ECF3;
+}
+
+.card-body{
+    background: #ffffff;
+}
+.card-image{
+    width: 100%;
+    height: auto;
+}
+.subscribe-button{
+    background: #06BE06;
+}
+
+
+.modal-header{
+    border-bottom: 0px solid #dee2e6;
+}
+.modal-footer{
+    border-top: 0px solid #dee2e6;
+}
+.modal-content{
+    background: #00ADEF;
+}
+
+.close:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+    color: #fefefe;
+}
+.close:hover{
+    outline: 0px auto -webkit-focus-ring-color;
+    color: #fefefe;
+}
+
+.group3{
+    background: url(../allimages/banner2.png) center no-repeat /cover;
+    background-size: 100% 100%;
+}
+.signup-modal-image{
+    background: url(../allimages/modal_image/signupModal.png) center no-repeat /cover;
+}
+
+.signin-button{
+    background: #06BE06;
+    box-shadow: 0px 2px 0px 0px #033943;
+}
+
+.signup-button{
+    background: #06BE06;
+    box-shadow: 0px 2px 0px 0px #033943;
+}
+.otp-formgroup{
+    width: 80%;
+    height: calc(2.5em + .75rem + 0px);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.responsive-padding{
+	padding-top: 2rem;
+}
+.footer-container{
+	background: #005397;
+}
+
+.transparent-input{
+	background: #fff;
+}
+.send-span{
+	background: url(/allimages/home_page1/send.png) center/cover no-repeat;
+	width: 3.5rem;
+}

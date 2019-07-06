@@ -1,0 +1,18 @@
+<div class="container">
+    <article>
+        <h1 class="text-center header_green bignbold">
+            benefits
+          <hr>
+        </h1>
+        <p class="text-center padding-15 para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </article>
+
+    <div class="row">
+        <div ng-repeat="key in benefits" class="col-md-4 text-center">
+            <figure>
+                <img ng-src="{{ key.img }}" alt="{{ key.img }}" />
+            </figure>
+            <p class="padding-12 padding-btm-30 benefits_content">{{ key.para }}</p>
+        </div>
+    </div>
+</div>
